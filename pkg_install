@@ -1,0 +1,16 @@
+!/bin/bash
+
+#Description:script to install new packages
+#Ikoyi,OCT,2022
+
+echo "installation in progress ...."
+echo
+yum install net-tools -y
+yum install sysstat -y
+yum install wget -y
+yum install curl -y
+yum install git -y
+yum install tree -y
+yum install vim -y
+echo
+echo "packages is successful,thanks"
